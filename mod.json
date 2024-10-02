@@ -15,12 +15,12 @@
 		"random-respawn": {
 			"type": "bool",
 			"name": "Randomise Respawn Time",
-			"default": false
+			"default": true
 		},
 		"random-max": {
 			"name": "Maximum Random Time",
 			"type": "int",
-			"default": 0,
+			"default": 5,
 			"min": 0,
 			"max": 20,
 			"control": {
