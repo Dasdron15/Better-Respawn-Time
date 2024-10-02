@@ -33,9 +33,6 @@ class $modify(MyPlayLayer, PlayLayer) {
 					this->runAction(newSequence);
 				}
 			}
-			else {
-				PlayLayer::destroyPlayer(player, object);
-			}
 		}
 	}
 };
